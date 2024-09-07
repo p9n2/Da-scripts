@@ -2,7 +2,7 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "🧊Da Scripts!🧊",
-   LoadingTitle = "Anti Cheat Disabled...",
+   LoadingTitle = "🧊Loading...🧊",
    LoadingSubtitle = "by p9n2",
    ConfigurationSaving = {
       Enabled = false,
