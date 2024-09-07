@@ -25,7 +25,7 @@ local Window = Rayfield:CreateWindow({
       Key = {""} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
    }
 })
-local MainTab = Window:CreateTab("🧊UI scripts🧊", nil) -- Title, Image
+local MainTab = Window:CreateTab("🧊Lock Scripts🧊", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
@@ -47,13 +47,6 @@ local Button = MainTab:CreateButton({
    Name = "🧊Azure Modded🧊",
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Actyrn/Scripts/main/AzureModded"))()
-   end,
-})
-
-local Button = MainTab:CreateButton({
-   Name = "🧊Anti-Lock🧊",
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Gwaporoblox/Sub-to-vascal/main/Vascal-Antilock-tool"))() 
    end,
 })
 
@@ -81,5 +74,13 @@ local Button = MainTab:CreateButton({
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7dd05d66b1acebfeec4fb31431a601eb.lua"))() 
+   end,
+})
+
+local MainTab = Window:CreateTab("🧊AntiLock Scripts🧊", nil) -- Title, Image
+local Button = MainTab:CreateButton({
+   Name = "🧊Anti-Lock🧊",
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Gwaporoblox/Sub-to-vascal/main/Vascal-Antilock-tool"))() 
    end,
 })
