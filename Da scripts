@@ -77,6 +77,14 @@ loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/7dd05d66b1aceb
    end,
 })
 
+local Button = MainTab:CreateButton({
+   Name = "🧊Downfall🧊",
+   Callback = function()
+loadstring(game:HttpGet("https://downfall.lol/loader.lua"))()
+ end,
+})
+
+
 local MainTab = Window:CreateTab("🧊AntiLock Scripts🧊", nil) -- Title, Image
 
 local Button = MainTab:CreateButton({
