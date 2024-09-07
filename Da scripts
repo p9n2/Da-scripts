@@ -24,15 +24,15 @@ local MainTab = Window:CreateTab("🧊UI scripts🧊", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
-   Title = "⬇️Discord⬇️",
-   Content = "https://discord.gg/RcGxENde8b",
+   Title = " ",
+   Content = "Loaded",
    Duration = 6.5,
    Image = 4483362458,
    Actions = { -- Notification Buttons
       Ignore = {
          Name = "Okay",
          Callback = function()
-         print("https://discord.gg/RcGxENde8b")
+         print("Loaded")
       end
    },
 },
