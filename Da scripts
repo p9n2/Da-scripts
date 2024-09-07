@@ -93,3 +93,15 @@ local Button = MainTab:CreateButton({
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Gwaporoblox/Sub-to-vascal/main/Vascal-Antilock-tool"))() 
    end,
 })
+
+local MainTab = Window:CreateTab("🧊Neck-Grabs🧊", nil) -- Title, Image
+
+local Button = MainTab:CreateButton({
+   Name = "🧊Solo-grab🧊",
+   Callback = function()
+   getgenv().Settings = {
+    ["sigma"] = "https://discord.gg/gDuYQ4DhaR",
+}
+loadstring(game:HttpGet("https://femboys-for.rent/p/raw/7naxt0bcok"))() 
+   end,
+})
