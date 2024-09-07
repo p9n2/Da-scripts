@@ -107,7 +107,7 @@ loadstring(game:HttpGet("https://femboys-for.rent/p/raw/7naxt0bcok"))()
 })
 
 local Button = MainTab:CreateButton({
-   Name = "🧊Detazy-setup🧊",
+   Name = "🧊Neck-Grab-Setup🧊",
    Callback = function()
           local Grabbed = false
         local Up = false
