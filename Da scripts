@@ -9,6 +9,11 @@ local Window = Rayfield:CreateWindow({
       FolderName = nil, -- Create a custom folder for your hub/game
       FileName = "🧊Da Scripts!🧊"
    },
+   Discord = {
+      Enabled = false,
+      Invite = "", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ABCD would be ABCD
+      RememberJoins = true -- Set this to false to make them join the discord every time they load it up
+   },
    KeySystem = false, -- Set this to true to use our key system
    KeySettings = {
       Title = "",
@@ -24,15 +29,15 @@ local MainTab = Window:CreateTab("🧊UI scripts🧊", nil) -- Title, Image
 local MainSection = MainTab:CreateSection("Main")
 
 Rayfield:Notify({
-   Title = " ",
-   Content = "Loaded",
+   Title = "⬇️Discord⬇️",
+   Content = "https://discord.gg/RcGxENde8b",
    Duration = 6.5,
    Image = 4483362458,
    Actions = { -- Notification Buttons
       Ignore = {
          Name = "Okay",
          Callback = function()
-         print("Loaded")
+         print("https://discord.gg/RcGxENde8b")
       end
    },
 },
