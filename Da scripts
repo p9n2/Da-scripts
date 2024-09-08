@@ -15861,7 +15861,9 @@ local Button = MainTab:CreateButton({
 
 local MainTab = Window:CreateTab("🧊Chat-Bypass🧊", nil) -- Title, Image
 
-local Button = MainTab:CreateButton
+local Button = MainTab:CreateButton({
    Name = "🧊Emoji-Bypass🧊",
    Callback = function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/UnknownUser2883/NotBypass/main/Haha"))()
+  end,
+})
