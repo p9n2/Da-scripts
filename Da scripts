@@ -23369,6 +23369,13 @@ loadstring(game:HttpGet("https://femboys-for.rent/p/raw/7naxt0bcok"))()
 })
 
 local Button = MainTab:CreateButton({
+   Name = "🧊tbo-grab🧊",
+   Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/cool5013/TBO/main/TBOscript'))()
+   end,
+})
+
+local Button = MainTab:CreateButton({
    Name = "🧊Neck-Grab-Setup🧊",
    Callback = function()
           local Grabbed = false
