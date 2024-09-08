@@ -15860,7 +15860,6 @@ local Button = MainTab:CreateButton({
 })
 
 local MainTab = Window:CreateTab("🧊Chat-Bypass🧊", nil) -- Title, Image
-
 local Button = MainTab:CreateButton({
    Name = "🧊Emoji-Bypass🧊",
    Callback = function()
